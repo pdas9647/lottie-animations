@@ -13,7 +13,8 @@ class _ThirdScreenState extends State<ThirdScreen> {
   Widget build(BuildContext context) {
     return Center(
       child: Lottie.asset(
-        'assets/jsons/96576-flying-plane.json',
+        // 'assets/jsons/96576-flying-plane.json',
+        'assets/jsons/lf30_0ldgeubn.json',
         repeat: true,
         animate: true,
       ),

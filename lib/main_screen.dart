@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:lottie_animation/fifth_screen.dart';
 import 'package:lottie_animation/first_screen.dart';
 import 'package:lottie_animation/fourth_screen.dart';
 import 'package:lottie_animation/second_screen.dart';
@@ -19,6 +20,7 @@ class _MainScreenState extends State<MainScreen> {
     const SecondScreen(),
     const ThirdScreen(),
     const FourthScreen(),
+    const FifthScreen(),
   ];
   final PageController _pageController = PageController();
   int _curr = 0;
